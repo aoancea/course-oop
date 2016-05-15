@@ -9,7 +9,7 @@ The purpose of this course is not to re-invent the wheel but to help me and mayb
 Hope you'll enjoy it!
 
 ## Abstract
-  * What is Object-Oriented Programming
+  * [What is Object-Oriented Programming](#what-is-object-oriented-programming)
     * Basics
       * What is a class ?
       * What is an object ?
@@ -19,3 +19,11 @@ Hope you'll enjoy it!
     * Encapsulation
     * Inheritance
     * Polymorphism
+
+## What is Object-Oriented Programming
+ * An approach to designing and building applications that are:
+  * Flexible
+  * Natural
+  * Well-crafted
+  * Testable
+ * By focusing on objects that interact cleanly with one another
