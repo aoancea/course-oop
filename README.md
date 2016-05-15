@@ -9,6 +9,13 @@ The purpose of this course is not to re-invent the wheel but to help me and mayb
 Hope you'll enjoy it!
 
 ## Abstract
-  1. What is Object-Oriented Programming
-    a. Basics
-  2. Fundamental priciples of OOP
+  * What is Object-Oriented Programming
+    * Basics
+      * What is a class ?
+      * What is an object ?
+    * Identifying classes from requirements
+      * Abstraction
+  * Fundamental priciples of OOP
+    * Encapsulation
+    * Inheritance
+    * Polymorphism
