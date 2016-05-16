@@ -21,9 +21,5 @@ Hope you'll enjoy it!
     * Polymorphism
 
 ## What is Object-Oriented Programming
- * An approach to designing and building applications that are:
-  * Flexible
-  * Natural
-  * Well-crafted
-  * Testable
+ * An approach to designing and building applications that are easy to understand and change
  * By focusing on objects that interact cleanly with one another
