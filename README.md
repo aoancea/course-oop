@@ -30,6 +30,7 @@ Hope you'll enjoy it!
 ## OOP – Basics
 ### What is a class?
  * A class can be thought of as a contract, blueprint or a template on how an object should look like
+ * Each class should be designed and programmed to accomplish one, and only one, thing(The **S** from the **SOLID** principles)
 
 
 
