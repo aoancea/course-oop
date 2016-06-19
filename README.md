@@ -11,7 +11,7 @@ Hope you'll enjoy it!
 ## Abstract
   * [What is Object-Oriented Programming](#what-is-object-oriented-programming)
     * Basics
-      * [What is a class ?](#what-is-a-class?)
+      * [What is a class ?](#what-is-a-class)
       * What is an object ?
     * Identifying classes from requirements
       * Abstraction
