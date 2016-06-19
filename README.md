@@ -23,3 +23,6 @@ Hope you'll enjoy it!
 ## What is Object-Oriented Programming
  * An approach to designing and building applications that are easy to understand and change
  * By focusing on objects that interact cleanly with one another
+ * Somewhere around a few thousand lines of code, you need organization
+ * Adding functions and constant declarations to a global namespace isn't going to scale forever
+ * You also find yourself writing repetitive code, if you're not careful
