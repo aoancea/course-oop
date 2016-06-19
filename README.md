@@ -4,7 +4,7 @@ Simple course that helps me walk through important aspects of OOP
 ## Introduction and purpose
 This course tries to introduce the basics of OOP by following a simple online shop example. It’s been designed so that everyone can understand it. After each chapter there is an assignment to strengthen your skills related to things you’ve learnt.
 
-The purpose of this course is not to re-invent the wheel but to help me and maybe you keep a very simple presentation of what OOP is all about. It tries to present things in an agnostic way in regards to programming languages so that it can be applies no matter of the qualification of the listener
+The purpose of this course is not to re-invent the wheel but to help me and maybe you, keep a very simple presentation of what OOP is all about. It tries to present things in an agnostic way in regards to programming languages so that it can be applies no matter of the qualification of the listener
 
 Hope you'll enjoy it!
 
@@ -31,6 +31,8 @@ Hope you'll enjoy it!
 ### What is a class?
  * A class can be thought of as a contract, blueprint or a template on how an object should look like
  * Each class should be designed and programmed to accomplish one, and only one, thing(The **S** from the **SOLID** principles)
+
+![What is a class?](https://raw.githubusercontent.com/aoancea/course-oop/master/assests/001-oop-basics-cookie-template.png)
 
 
 
