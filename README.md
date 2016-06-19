@@ -26,3 +26,14 @@ Hope you'll enjoy it!
  * Somewhere around a few thousand lines of code, you need organization
  * Adding functions and constant declarations to a global namespace isn't going to scale forever
  * You also find yourself writing repetitive code, if you're not careful
+
+## OOP – Basics
+### What is a class?
+ * A class can be thought of as a contract, blueprint or a template on how an object should look like
+
+
+
+
+
+
+
