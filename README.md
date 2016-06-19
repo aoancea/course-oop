@@ -12,7 +12,7 @@ Hope you'll enjoy it!
   * [What is Object-Oriented Programming](#what-is-object-oriented-programming)
     * Basics
       * [What is a class ?](#what-is-a-class)
-      * What is an object ?
+      * [What is an object ?](#what-is-an-object)
     * Identifying classes from requirements
       * Abstraction
   * Fundamental priciples of OOP
@@ -34,6 +34,15 @@ Hope you'll enjoy it!
 
 ![What is a class?](https://raw.githubusercontent.com/aoancea/course-oop/master/assests/001-oop-basics-cookie-template.png)
 
+### What is an object?
+ * Objects are the building blocks on Object-Oriented Programming
+ * Every object is built from a class
+ * An object is an instance of a class
+ * Objects have two characteristics:
+   * Attributes
+      * The data stored within an object represents the state of the object. In OO programming terminology, this data is called ***attributes*** or ***state***
+   * Actions
+      * The ***action*** of an object represents what exactly that object can do. These actions are also called ***methods*** or ***behaviours***
 
 
 
