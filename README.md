@@ -44,6 +44,10 @@ Hope you'll enjoy it!
    * Actions
       * The ***action*** of an object represents what exactly that object can do. These actions are also called ***methods*** or ***behaviours***
 
+## OOP – Identifying classes from requirements
+ * Every project starts with some words or a user story, in short, with a description
+ * Our job is to identify the objects we will use in our application from that description
+ * We can start with the nouns and extract the classes from them
 
 
 
