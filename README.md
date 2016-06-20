@@ -48,6 +48,15 @@ Hope you'll enjoy it!
  * Every project starts with some words or a user story, in short, with a description
  * Our job is to identify the objects we will use in our application from that description
  * We can start with the nouns and extract the classes from them
+ * Let’s see an example:
+
+>As a ***User*** I want to be able to visit a website and select multiple ***Products*** so that I can place an ***Order***
+
+ * The nouns from the description of the user story are:
+   * Customer – this is how we’ll be referring to the User
+   * Product
+   * Order
+ * Now that we have identified the classes that we’ll be using, let’s see what are their ***attributes*** and ***actions***
 
 
 
