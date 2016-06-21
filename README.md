@@ -57,6 +57,26 @@ Hope you'll enjoy it!
    * Product
    * Order
  * Now that we have identified the classes that we’ll be using, let’s see what are their ***attributes*** and ***actions***
+ * These are some ***attributes*** that the Customer might have:
+    * First name
+    * Last name
+    * Email address
+    * Home address
+    * Work address
+    * Date of birth
+    * Shoe size
+    * Gender
+    * Dog name
+ * And these are the ***actions*** a Customer might perform
+    * Chop wood
+    * Validate
+    * Drive a bike
+    * Load
+    * Drive a car
+    * Save
+    * Drink beer
+    * Drive a boat
+    * Get age
 
 
 
