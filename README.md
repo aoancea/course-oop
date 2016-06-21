@@ -10,7 +10,7 @@ Hope you'll enjoy it!
 
 ## Abstract
   * [What is Object-Oriented Programming](#what-is-object-oriented-programming)
-    * Basics
+    * [Basics](#oop--basics)
       * [What is a class ?](#what-is-a-class)
       * [What is an object ?](#what-is-an-object)
     * [Identifying classes from requirements](#oop--identifying-classes-from-requirements)
