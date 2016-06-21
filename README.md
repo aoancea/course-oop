@@ -86,3 +86,11 @@ Hope you'll enjoy it!
 
  * This means that we do not need to add all the previous attributes to the customer class since the system is not going to need them
  * This goes for the actions a ***User*** can perform as well, we won’t be needing all of them, at least not yet
+
+>As an ***Admin*** I want the system to be able to calculate a ***User's*** age so that in the future we can offer featured prices for different ages
+
+ * The actions a User can perform could be:
+    * Get age
+    * Validate
+    * Load
+    * Save
