@@ -105,3 +105,21 @@ Hope you'll enjoy it!
  * Simplifying reality
  * Ignoring extraneous details - we do not care for irelevant information
  * Focusing on what is important for a purpose
+
+#### Introducing abstraction for the Customer class
+ * Previously we said that for the customer we are going to store only the desired information
+ * Attributes:
+    * Name – stores the name of the customer
+    * Email address – stores the email address of the customer
+    * Shipping address – stores the shipping address of the customer
+    * Data of birth – stores the date of birth of the customer
+ * Actions:
+    * Get age – gets the age for the customer
+
+ * Now that we understand how to identify classes and their attributes and actions from requirements, do that for the other two classes, ***Product*** and ***Order***
+ * You can provide your own user story for each of the attributes/actions related to each of these
+
+
+
+
+
