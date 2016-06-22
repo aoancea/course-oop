@@ -125,7 +125,9 @@ Hope you'll enjoy it!
  * Now that we understand how to identify classes and their attributes and actions from requirements, do that for the other two classes, ***Product*** and ***Order***
  * You can provide your own user story for each of the attributes/actions related to each of these
 
-
+## Fundamental priciples of OOP
+ * There are 3 great fundamental principles of OOP. Some might argue there is a 4th and that being ***Abstraction***, but I would go with the structure described in the **[Abstract](#abstract)**.
+ * Just to set the record straight, I believe that there is no wrong in having them as this or with a 4th one as long as everybody understands and uses them correctly
 
 
 
