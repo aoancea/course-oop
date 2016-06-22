@@ -14,7 +14,10 @@ Hope you'll enjoy it!
       * [What is a class ?](#what-is-a-class)
       * [What is an object ?](#what-is-an-object)
     * [Identifying classes from requirements](#oop--identifying-classes-from-requirements)
-      * Abstraction
+      * [Creating the Customer class](#creating-the-customer-class)
+      * [Understanding the problem](#understanding-the-problem)
+      * [Abstraction](#abstraction)
+      * [Introducing abstraction for the Customer class](#introducing-abstraction-for-the-customer-class)
   * Fundamental priciples of OOP
     * Encapsulation
     * Inheritance
