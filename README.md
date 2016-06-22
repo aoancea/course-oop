@@ -97,6 +97,11 @@ Hope you'll enjoy it!
 
  * This means that we do not need to add all the previous actions on the ***Customer*** class
 
-### Understanding the problem
+#### Understanding the problem
  * As we saw previously, we do not need to store all the information related to the identified objects into the application
  * Identifying only the information that we need for the objects is called ***Abstraction***
+
+#### Abstraction
+ * Simplifying reality
+ * Ignoring extraneous details - we do not care for irelevant information
+ * Focusing on what is important for a purpose
