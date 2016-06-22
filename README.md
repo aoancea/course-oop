@@ -18,7 +18,7 @@ Hope you'll enjoy it!
       * [Understanding the problem](#understanding-the-problem)
       * [Abstraction](#abstraction)
       * [Introducing abstraction for the Customer class](#introducing-abstraction-for-the-customer-class)
-  * Fundamental priciples of OOP
+  * [Fundamental priciples of OOP](#fundamental-priciples-of-oop)
     * Encapsulation
     * Inheritance
     * Polymorphism
