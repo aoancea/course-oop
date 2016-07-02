@@ -138,3 +138,9 @@ Hope you'll enjoy it!
  * Helps manage complexity
  * Only the class needs to understand the implementation
  * Implementation can be changed without impacting the usage(client)
+
+ * Let’s take again the ***Customer*** class and look at one of its methods
+ * We can take for this example the ***GetAge()*** method
+ * The implementation is hidden inside but is made available to us just by calling/invoking the method
+
+ 
