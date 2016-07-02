@@ -129,5 +129,7 @@ Hope you'll enjoy it!
  * There are 3 great fundamental principles of OOP. Some might argue there is a 4th and that being ***Abstraction***, but I would go with the structure described in the **[Abstract](#abstract)**.
  * Just to set the record straight, I believe that there is no wrong in having them as this or with a 4th one as long as everybody understands and uses them correctly
 
-
+## Encapsulation
+ * You can think of ***Encapsulation*** as a way to hide the implementation but at the same time make it accessible only by calling a ***method***.
+ * It can also be used for grouping attributes together so that they reside in the same class(context) like we had with the ***Customer*** class, all information related to it was placed inside a single class
 
