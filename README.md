@@ -151,9 +151,6 @@ Hope you'll enjoy it!
  * How can we accomplish this?
  * One way to do it would be to delete the ShippingAddress attribute and instead of it add these 3 new attributes
  * The ***Customer*** class will gain these 3 new attributes:
-    * CustomerStreetName
-    * CustomerStreetNumber
-    * CustomerApartmentNumber
 
 ```c#
 public class Customer
@@ -171,9 +168,6 @@ public class Customer
  * This is because the people using the application want to know the product's owner address so that they can filter through this information and get the closest product relative to their location
  * What do we do?
  * Well, we could just add these 3 attributes to the ***Product*** class which will look something like this:
-    * OwnerStreetName
-    * OwnerStreetNumber
-    * OwnerApartmentNumber
 
 ```c#
 public class Product
