@@ -222,3 +222,6 @@ public class Product
    ...
 }
 ```
+* As we have defined what encapsulation is and we also walked over some main scenarios where we can use it and for what it is beneficial, let's see some implementation for the actions of each class
+* Basic examples usually tend to write a message in console that describes the intended task
+* The next examples are going to return that message in order for it to be validated in a unit test
