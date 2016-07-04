@@ -154,6 +154,18 @@ Hope you'll enjoy it!
     * CustomerStreetName
     * CustomerStreetNumber
     * CustomerApartmentNumber
+
+```c#
+public class Customer
+{
+   ...
+   public string CustomerStreetName { get; set; }
+   public string CustomerStreetNumber { get; set; }
+   public string CustomerApartmentNumber { get; set; }
+   ...
+}
+```
+
  * We can now say that the information related to the ***Customer*** class is being handled correctly
  * By the time the application goes in production and everyone is happy, a new change request comes in that says that we need to be able to store these 3 new attributes for the ***Product*** as well
  * This is because the people using the application want to know the product's owner address so that they can filter through this information and get the closest product relative to their location
@@ -162,10 +174,45 @@ Hope you'll enjoy it!
     * OwnerStreetName
     * OwnerStreetNumber
     * OwnerApartmentNumber
+
+```c#
+public class Product
+{
+   ...
+   public string OwnerStreetName { get; set; }
+   public string OwnerStreetNumber { get; set; }
+   public string OwnerApartmentNumber { get; set; }
+   ...
+}
+```
+
  * Are you seeing the pattern?
  * Exactly! Now we have duplicated code which handles the same simple thing
  * And that is holding ***Address*** information
  * Any ideas?
- * Well, we could add a new class named ***Address*** since this is the information we want to hold in it, related to addresses
- * Now that we have a newly build class ***Address*** that stores information related to addresses, we can drop the 3 attributes from both ***Customer*** and ***Product*** classes and add the ***Address*** attribute to them
+ * Well, we could add a new class named ***Address*** since this is the information we want to hold in it, related to address
+ * Now that we have a newly build class ***Address*** that stores information related to an address, we can drop the 3 attributes from both ***Customer*** and ***Product*** classes and add the ***Address*** attribute to them
  * By doing this we have grouped the information related strictly to the address context in just one class and we can reuse it wherever we feel it’s useful
+
+```c#
+public class Address
+{
+   public string StreetName { get; set; }
+   public string StreetNumber { get; set; }
+   public string ApartmentNumber { get; set; }
+}
+
+public class Customer
+{
+   ...
+   public Address CustomerAddress { get; set; }
+   ...
+}
+
+public class Product
+{
+   ...
+   public Address OwnerAddress { get; set; }
+   ...
+}
+```
