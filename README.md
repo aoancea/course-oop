@@ -20,7 +20,7 @@ Hope you'll enjoy it!
       * [Introducing abstraction for the Customer class](#introducing-abstraction-for-the-customer-class)
   * [Fundamental priciples of OOP](#fundamental-priciples-of-oop)
     * [Encapsulation](#encapsulation)
-    * Inheritance
+    * [Inheritance](#inheritance)
     * Polymorphism
 
 ## What is Object-Oriented Programming
