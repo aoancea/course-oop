@@ -230,5 +230,18 @@ public class Product
  * The ability of a new class to be created from an existing class by extending it is called ***Inheritance***
  * We can also have interface based inheritance and we will discuss about this later in the course
  * Inheritance can be used for code re-use by providing the same code base for objects that have something in common and thus create a relationship between them
+ * One of the most important relationships among objects is specialization, which can be described as the ***“is-a”*** relationship
+ * This means that if we have two classes, Class A and Class B, and class B derives from class A, we can say that B ***“is-a”*** A
+
+#### Understanding the “is-a” relationship
+ * The business is changing again and it wants to support multiple kinds of products
+ * The first products they want to support are:
+    * Apples
+    * Oranges
+    * Mineral water
+    * Sparkling water
+ * We can identify two classes from these 4 products:
+    * **Fruit** – apples and oranges are fruits with one of the differences being that the thickness of the crust between these two is different
+    * **Water** – mineral and sparkling water is just water with the difference that the level of carbon-dioxide present in its composition is different
 
 
