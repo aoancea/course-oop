@@ -122,6 +122,18 @@ Hope you'll enjoy it!
  * Actions:
     * Get age – gets the age for the customer
 
+```c#
+public class Customer
+{
+   public string Name { get; set; }
+   public string EmailAddress { get; set; }
+   public string ShipppingAddress { get; set; }
+   public DateTime DateOfBirth { get; set; }
+   
+   public int GetAge();
+}
+```
+
  * Now that we understand how to identify classes and their attributes and actions from requirements, do that for the other two classes, ***Product*** and ***Order***
  * You can provide your own user story for each of the attributes/actions related to each of these
 
@@ -199,7 +211,7 @@ public class Address
 public class Customer
 {
    ...
-   public Address CustomerAddress { get; set; }
+   public Address ShippingAddress { get; set; }
    ...
 }
 
