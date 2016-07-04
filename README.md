@@ -142,4 +142,30 @@ Hope you'll enjoy it!
  * We can take for this example the ***GetAge()*** method
  * The implementation is hidden inside but is made available to us just by calling/invoking the method
 
- 
+#### Grouping
+ * Another point in ***Encapsulation*** is grouping
+ * Let's say that the business requirements have changed and it’s no longer feasible to store a single field for the ShippingAddress of the ***Customer***, rather we need several fields:
+    * Street name
+    * Street number
+    * Apartment number
+ * How can we accomplish this?
+ * One way to do it would be to delete the ShippingAddress attribute and instead of it add these 3 new attributes
+ * The ***Customer*** class will gain these 3 new attributes:
+    * CustomerStreetName
+    * CustomerStreetNumber
+    * CustomerApartmentNumber
+ * We can now say that the information related to the ***Customer*** class is being handled correctly
+ * By the time the application goes in production and everyone is happy, a new change request comes in that says that we need to be able to store these 3 new attributes for the ***Product*** as well
+ * This is because the people using the application want to know the product's owner address so that they can filter through this information and get the closest product relative to their location
+ * What do we do?
+ * Well, we could just add these 3 attributes to the ***Product*** class which will look something like this:
+    * OwnerStreetName
+    * OwnerStreetNumber
+    * OwnerApartmentNumber
+ * Are you seeing the pattern?
+ * Exactly! Now we have duplicated code which handles the same simple thing
+ * And that is holding ***Address*** information
+ * Any ideas?
+ * Well, we could add a new class named ***Address*** since this is the information we want to hold in it, related to addresses
+ * Now that we have a newly build class ***Address*** that stores information related to addresses, we can drop the 3 attributes from both ***Customer*** and ***Product*** classes and add the ***Address*** attribute to them
+ * By doing this we have grouped the information related strictly to the address context in just one class and we can reuse it wherever we feel it’s useful
