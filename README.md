@@ -243,5 +243,7 @@ public class Product
  * We can identify two classes from these 4 products:
     * **Fruit** – apples and oranges are fruits with one of the differences being that the thickness of the crust between these two is different
     * **Water** – mineral and sparkling water is just water with the difference that the level of carbon-dioxide present in its composition is different
+ * This means that we can treat both ***Apples*** and ***Oranges*** as ***Fruit*** which will end up becoming the ***Fruit*** class and as these are products, the ***Fruit*** class is going to inherit the ***Product*** class
+ * This goes exactly the same for ***Mineral*** and ***Sparkling Water*** in defining the ***Water*** class that inherits from the ***Product*** class
 
 
