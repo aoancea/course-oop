@@ -246,4 +246,19 @@ public class Product
  * This means that we can treat both ***Apples*** and ***Oranges*** as ***Fruit*** which will end up becoming the ***Fruit*** class and as these are products, the ***Fruit*** class is going to inherit the ***Product*** class
  * This goes exactly the same for ***Mineral*** and ***Sparkling Water*** in defining the ***Water*** class that inherits from the ***Product*** class
 
+```c#
+public abstract class Product
+{
+   ...
+}
 
+public abstract class Fruit : Product
+{
+   ...
+}
+
+public abstract class Water : Product
+{
+   ...
+}
+```
