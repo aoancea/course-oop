@@ -262,3 +262,32 @@ public abstract class Water : Product
    ...
 }
 ```
+ * As we saw from the code, the ***Product***, ***Fruit*** and ***Water*** classes were marked as abstract
+ * This is preventing any direct instantiation of the ***Product***, ***Fruit*** and ***Water*** classes
+ * This is also a way to signal at design time that the system will never ever have the need of instantiating these kinds of object because they do not possess enough information to for a working object
+ * The business can't use this simple abstract classes but it needs a set of concrete specialized classes for each of their products which we already discussed previously
+ * Marking these classes as abstract do not prevent us of using any of the specialized(subclass or derived class) classes that we defined, ***Apple***, ***Orange***, ***SparklingWater*** and ***MineralWater***, in instantiating an object from them and refer to it as it were a ***Product***
+
+```c#
+public class Apple : Fruit
+{
+   ...
+}
+
+public class Orange : Fruit
+{
+   ...
+}
+
+public class SparklingWater : Water
+{
+   ...
+}
+
+public class MineralWater : Water
+{
+   ...
+}
+```
+
+ * This is what inheritance is all about, being able to refer to a subclass as it were a base class
