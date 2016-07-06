@@ -291,3 +291,27 @@ public class MineralWater : Water
 ```
 
  * This is what inheritance is all about, being able to refer to a subclass as it were a base class
+ * The business is very pleased that we managed to implement the requirements for them but the time passes so fast and they realize that the customers can place an order but the products they’ve selected do not appear anywhere
+ * If we have a look at our ***Order*** class we discover that there is no knowledge of any product the customer might have selected
+
+```c#
+public class Order
+{
+
+}
+```
+ * So until now our system was more like presenting stuff but not allowing the customer to buy anything, and this is really bad for business!
+ * What can we do?
+
+#### Using inheritance correctly!
+ * Well, we could just add a collection of some sort on the Order class and we`ll be done with it
+
+```c#
+public class Order
+{
+   public List<Orange> OrangeCollection { get; set; }
+   public List<Apple> AppleCollection { get; set; }
+   public List<MineralWater> MineralWaterCollection { get; set; }
+   public List<SparklingWater> SparklingWaterCollection { get; set; }
+}
+```
