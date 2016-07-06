@@ -315,3 +315,14 @@ public class Order
    public List<SparklingWater> SparklingWaterCollection { get; set; }
 }
 ```
+ * Not so fast!
+ * Let's think... We just added a few classes that the business required us to add, so we could just add a collection for each
+ * That might work, but what happens if tomorrow they want to add like ten more types of products? We can’t just continue adding on the same pattern on the ***Order*** class
+ * So one way of doing it would be to add a collection of ***Product***'s since every actual product from the system will be a ***Product***
+
+```c#
+public class Order
+{
+   public List<Product> Products { get; set; }
+}
+```
