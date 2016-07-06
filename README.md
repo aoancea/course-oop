@@ -349,3 +349,10 @@ public class Order
  * We can conclude that water is composed out of hydrogen and oxygen but water is not hydrogen nor oxygen
  * Water is water
  * The list of examples can continue forever!
+
+#### Choosing between "is-a and "has-a" relationship
+ * As we have defined and used both ***"is-a"*** and ***"has-a"*** relationship, we also need to understand when to use each of them
+ * Some would say that the ***"is-a"*** relationship is better than the ***"has-a"*** relationship and others might say the opposite
+ * My personal opinion is that neither is more important than the other, you just need to make sense of the situation you're in and decide which one is the best option to suite the need
+ * As we saw in the water example, there is pretty much impossible to use the ***"is-a"*** relationship
+ * Happy hunting!
