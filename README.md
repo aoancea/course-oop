@@ -326,3 +326,18 @@ public class Order
    public List<Product> Products { get; set; }
 }
 ```
+#### Understanding the “is-a” relationship
+ * This means that now the Order class will contain the following attributes:
+    * Customer
+    * OrderDate
+    * Products
+```c#
+public class Order
+{
+   public Customer Customer { get; set; }
+   public DateTime OrderDate { get; set; }
+   public List<Product> Products { get; set; }
+}
+```
+ * We can see that the ***Order*** class now contains the ***Customer*** and ***Product*** classes
+ * This is called ***composition*** or the ***“has-a”*** relationship
