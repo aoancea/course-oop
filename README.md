@@ -344,3 +344,8 @@ public class Order
  * We can see that the ***Order*** class now contains the ***Customer*** and ***Product*** classes
  * This is called ***composition*** or the ***"has-a"*** relationship
  * The ***"has-a"*** relationship simply means that a class contains another class or in terms of objects, an object is composed of one or multiple objects which is very similar to our day to day lives
+ * Let's take water for example:
+ * Its chemical formula is H2O, which means that the water molecule is formed out of two hydrogen atoms and one oxygen atom
+ * We can conclude that water is composed out of hydrogen and oxygen but water is not hydrogen nor oxygen
+ * Water is water
+ * The list of examples can continue forever!
