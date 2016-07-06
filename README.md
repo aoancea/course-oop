@@ -343,3 +343,4 @@ public class Order
 
  * We can see that the ***Order*** class now contains the ***Customer*** and ***Product*** classes
  * This is called ***composition*** or the ***"has-a"*** relationship
+ * The ***"has-a"*** relationship simply means that a class contains another class or in terms of objects, an object is composed of one or multiple objects which is very similar to our day to day lives
