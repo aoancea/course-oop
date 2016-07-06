@@ -356,3 +356,15 @@ public class Order
  * My personal opinion is that neither is more important than the other, you just need to make sense of the situation you're in and decide which one is the best option to suite the need
  * As we saw in the water example, there is pretty much impossible to use the ***"is-a"*** relationship
  * Happy hunting!
+
+#### Interface based inheritance
+ * The first question we need to ask is, what exactly is an interface?
+ * Well, simply put, an interface is a class without implementation and that’s all that it is
+ * In an interface all members are considered abstract thus an object cannot be instantiated from an interface like an object cannot be instantiated from an abstract class either
+ * Different from class based inheritance, a class can inherit multiple interfaces and the term for this is ***implements***
+ * This is because, as stated above, all members of an interface are abstract by default thus require an actual implementation
+ * There are two ways of implementing an interface:
+    * Implicitly
+    * Explicitly
+
+#### Implicit vs Explicit interface implementation
