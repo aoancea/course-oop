@@ -373,3 +373,10 @@ public class Order
  * On the other hand, in the explicit implementation you do specify the level from where the member declared in the interface is called and this is at the interface level
  * It is no longer visible to any object created from the class implementing the interface but only if casted to the interface type
  * It is useful when you want some encapsulation or you don’t want certain members to be accessible to everyone
+
+#### Interface based inheritance
+ * Now that we know what an interface is and how to use it we should put it to work
+ * What if we would add an interface for the ***Product*** class then make it implement it and after replace all references of the ***Product*** class with the interface
+ * What would this give us?
+ * Well for starters, our system will become more elastic/flexible and we would be able to provide multiple implementation for the ***Product*** class but not changing a single thing on the communication between components level since our system knows how to work with an interface and the implementation is based on that interface
+ * We will name the interface ***IProduct*** to follow the interface naming conventions
