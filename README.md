@@ -21,7 +21,7 @@ Hope you'll enjoy it!
   * [Fundamental priciples of OOP](#fundamental-priciples-of-oop)
     * [Encapsulation](#encapsulation)
     * [Inheritance](#inheritance)
-    * Polymorphism
+    * [Polymorphism](#polymophism)
 
 ## What is Object-Oriented Programming
  * An approach to designing and building applications that are easy to understand and change
@@ -380,3 +380,6 @@ public class Order
  * What would this give us?
  * Well for starters, our system will become more elastic/flexible and we would be able to provide multiple implementation for the ***Product*** class but not changing a single thing on the communication between components level since our system knows how to work with an interface and the implementation is based on that interface
  * We will name the interface ***IProduct*** to follow the interface naming conventions
+
+
+### Polymorphism
