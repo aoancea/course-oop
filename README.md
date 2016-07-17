@@ -21,7 +21,7 @@ Hope you'll enjoy it!
   * [Fundamental priciples of OOP](#fundamental-priciples-of-oop)
     * [Encapsulation](#encapsulation)
     * [Inheritance](#inheritance)
-    * [Polymorphism](#polymophism)
+    * [Polymorphism](#polymorphism)
 
 ## What is Object-Oriented Programming
  * An approach to designing and building applications that are easy to understand and change
