@@ -368,3 +368,8 @@ public class Order
     * Explicitly
 
 #### Implicit vs Explicit interface implementation
+ * As the name also implies, in the implicit implementation you do not need to specify the level from where the member declared in the interface is called
+ * Its implicitly at class level and can be accessed by any object created from the class implementing the interface
+ * On the other hand, in the explicit implementation you do specify the level from where the member declared in the interface is called and this is at the interface level
+ * It is no longer visible to any object created from the class implementing the interface but only if casted to the interface type
+ * It is useful when you want some encapsulation or you don’t want certain members to be accessible to everyone
