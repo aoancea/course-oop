@@ -383,3 +383,7 @@ public class Order
 
 
 ### Polymorphism
+ * Polymorphism means many-shapes
+ * A single method with a given name can behave differently depending on the type of the object on which it is called
+ * The question that we need to ask here is:
+ * How does this language let you treat related objects in a similar way?
