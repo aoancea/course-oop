@@ -418,7 +418,7 @@ public interface IProduct
    string[] Validate();
 }
 
-public abstract class Product : IProduct
+public abstract class Product : IProduct // mind this useless construct of abstract class implementing an interface
 {
     ...
    public abstract string[] Validate();
@@ -454,3 +454,32 @@ public class Apple : Fruit
     * Less code
     * Less changes when new types of products will need to be supported
  * The following is an example of how the ***Order*** class can look like
+
+```c#
+public class Order
+{
+    ...
+   
+   public IProduct[] Products { get; set; }
+   
+   public void PlaceOrder()
+   {
+       List<string> errors = new List<string>();
+       for(int i = 0; i < Products.Length; ++i) // we could use foreach as well
+       {
+           errors.Add(Products[i].Validate());
+       }
+       
+       if(!errors.Any())
+       {
+           // place order as we do not have errors
+       }
+       else
+       {
+           // do something with the errors
+       }
+   }
+    ...
+}
+
+```
