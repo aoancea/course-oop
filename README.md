@@ -406,3 +406,9 @@ public interface IProduct
    void Validate();
 }
 ```
+
+ * This means that any object that is inheriting from ***IProduct*** is going to have some implementation for this method
+ * Having this in place we can say that the validation for the selected products is very easy
+ * The list of products contains all types of known products like water and fruits and each of which has its own implementation of the ***Validation();*** method
+ * This is achieved by using the special keyword ***override*** which means re-write or re-implement
+
