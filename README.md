@@ -447,3 +447,10 @@ public class Apple : Fruit
 }
 
 ```
+
+#### Benefits
+ * Well for starters we can treat any type of product that the system supports so far or any type of product that the system will need to support in the future as if they were the same
+ * This means:
+    * Less code
+    * Less changes when new types of products will need to be supported
+ * The following is an example of how the ***Order*** class can look like
