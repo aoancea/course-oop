@@ -399,3 +399,10 @@ public class Order
  * Before we can save anything we also must validate the information provided by any customer to be sure that is correct
  * This is because we don't want our system to crash or to let the customer live under the impression that everything went good when in fact it didn't because he was too late on placing the order and the product stocked emptied out
  * If we look over to the ***IProduct*** interface we can see that it has defined the ***Validate();*** method
+
+```c#
+public interface IProduct
+{
+   void Validate();
+}
+```
