@@ -403,7 +403,7 @@ public class Order
 ```c#
 public interface IProduct
 {
-   void Validate();
+   string[] Validate();
 }
 ```
 
@@ -412,3 +412,38 @@ public interface IProduct
  * The list of products contains all types of known products like water and fruits and each of which has its own implementation of the ***Validation();*** method
  * This is achieved by using the special keyword ***override*** which means re-write or re-implement
 
+```c#
+public interface IProduct
+{
+   string[] Validate();
+}
+
+public abstract class Product : IProduct
+{
+    ...
+   public abstract string[] Validate();
+    ...
+}
+
+public abstract class Fruit : Product
+{
+    ...
+   public override string[] Validate()
+   {
+       ...
+   }
+    ...
+}
+
+public class Apple : Fruit
+{
+    ...
+   public override string[] Validate()
+   {
+       base.Validate(); // if you want to also call the validation from the base class[optional]
+       ...
+   }
+    ...
+}
+
+```
