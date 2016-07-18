@@ -387,3 +387,15 @@ public class Order
  * A single method with a given name can behave differently depending on the type of the object on which it is called
  * The question that we need to ask here is:
  * How does this language let you treat related objects in a similar way?
+
+#### Going further
+ * We talked in the previous chapter about the business requiring an order to be populated with the selected products
+ * We implemented that using a collection of ***IProduct*** which we decided was the way to go
+ * Holding these products in the ***Order*** object and doing nothing with them isn’t helping anyone
+ * This means that when the order is placed, the products should also be placed along with it
+ * By placing an order we understand saving the information related to it somewhere
+
+#### Implementing the actual order placing workflow
+ * Before we can save anything we also must validate the information provided by any customer to be sure that is correct
+ * This is because we don't want our system to crash or to let the customer live under the impression that everything went good when in fact it didn't because he was too late on placing the order and the product stocked emptied out
+ * If we look over to the ***IProduct*** interface we can see that it has defined the ***Validate();*** method
