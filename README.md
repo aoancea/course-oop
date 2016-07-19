@@ -4,7 +4,7 @@ Simple course that helps me walk through important aspects of OOP
 ## Introduction and purpose
 This course tries to introduce the basics of OOP by following a simple online shop example. It’s been designed so that everyone can understand it. After each chapter there is an assignment to strengthen your skills related to things you’ve learnt.
 
-The purpose of this course is not to re-invent the wheel but to help me and maybe you, keep a very simple presentation of what OOP is all about. It tries to present things in an agnostic way in regards to programming languages so that it can be applies no matter of the qualification of the listener
+The purpose of this course is not to re-invent the wheel but to help me and maybe you, keep a very simple presentation of what OOP is all about. It tries to present things in an agnostic way in regards to programming languages so that it can be applied regardless of the reader's experience.
 
 Hope you'll enjoy it!
 
@@ -26,19 +26,21 @@ Hope you'll enjoy it!
 ## What is Object-Oriented Programming
  * An approach to designing and building applications that are easy to understand and change
  * By focusing on objects that interact cleanly with one another
+ 
+## Why and when do we use OOP?
  * Somewhere around a few thousand lines of code, you need organization
  * Adding functions and constant declarations to a global namespace isn't going to scale forever
  * You also find yourself writing repetitive code, if you're not careful
 
 ## OOP – Basics
 ### What is a class?
- * A class can be thought of as a *contract*, *blueprint* or a *template* on how an object should look like
+ * A class can be thought of as a *contract*, *blueprint* or a *template* of how an object should look like
  * Each class should be designed and programmed to accomplish one, and only one, thing(The **S** from the **SOLID** principles)
 
 ![What is a class?](https://raw.githubusercontent.com/aoancea/course-oop/master/assests/001-oop-basics-cookie-template.png)
 
 ### What is an object?
- * Objects are the building blocks on Object-Oriented Programming
+ * Objects are the building blocks of Object-Oriented Programming
  * Every object is built from a class
  * An object is an instance of a class
  * Objects have two characteristics:
@@ -48,7 +50,7 @@ Hope you'll enjoy it!
       * The ***action*** of an object represents what exactly that object can do. These actions are also called ***methods*** or ***behaviours***
 
 ## OOP – Identifying classes from requirements
- * Every project starts with some words or a user story, in short, with a description
+ * Every project starts with some words or a user story. In short, with a description
  * Our job is to identify the objects we will use in our application from that description
  * We can start with the nouns and extract the classes from them
  * Let’s see an example:
@@ -109,8 +111,8 @@ Hope you'll enjoy it!
 
 #### Abstraction
  * Simplifying reality
- * Ignoring extraneous details - we do not care for irelevant information
- * Focusing on what is important for a purpose
+ * Ignoring extraneous details - we do not care for irrelevant information
+ * Focusing on what is important for our goal
 
 #### Introducing abstraction for the Customer class
  * Previously we said that for the customer we are going to store only the desired information
@@ -137,19 +139,19 @@ public class Customer
  * Now that we understand how to identify classes and their attributes and actions from requirements, do that for the other two classes, ***Product*** and ***Order***
  * You can provide your own user story for each of the attributes/actions related to each of these
 
-## Fundamental priciples of OOP
- * There are 3 great fundamental principles of OOP. Some might argue there is a 4th and that being ***Abstraction***, but I would go with the structure described in the **[Abstract](#abstract)**.
+## Fundamental principles of OOP
+ * There are 3 great fundamental principles of OOP. Some might argue there is a 4th one: ***Abstraction***, but I would go with the structure described in the **[Abstract](#abstract)**.
  * Just to set the record straight, I believe that there is no wrong in having them as this or with a 4th one as long as everybody understands and uses them correctly
 
 ### Encapsulation
  * You can think of ***Encapsulation*** as a way to hide the implementation but at the same time make it accessible only by calling a ***method***.
- * It can also be used for grouping attributes together so that they reside in the same class(context) like we had with the ***Customer*** class, all information related to it was placed inside a single class
+ * It can also be used for grouping attributes together so that they reside in the same class (context) like we had with the ***Customer*** class. All information related to it was placed inside a single class
 
 #### Data hiding
  * How does this language hide an object’s internal implementation details and preserve data integrity?
  * Helps manage complexity
  * Only the class needs to understand the implementation
- * Implementation can be changed without impacting the usage(client)
+ * Implementation can be changed without impacting the usage (client)
  * Let’s take again the ***Customer*** class and look at one of its methods
  * We can take for this example the ***GetAge()*** method
  * The implementation is hidden inside but is made available to us just by calling/invoking the method
@@ -383,10 +385,10 @@ public class Order
 
 
 ### Polymorphism
- * Polymorphism means many-shapes
+ * Polymorphism means "many shapes"
  * A single method with a given name can behave differently depending on the type of the object on which it is called
  * The question that we need to ask here is:
- * How does this language let you treat related objects in a similar way?
+ * How does this feature let you treat related objects in a similar way?
 
 #### Going further
  * We talked in the previous chapter about the business requiring an order to be populated with the selected products
