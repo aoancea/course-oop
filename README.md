@@ -408,8 +408,9 @@ class Program
  * The last line demonstrates this process with a hierarchy of 3 classes. First ***Fruit()*** is called, then ***Apple()*** and finally ***RedApple()***
  * In general, parameter-less constructors are automatically called in a ***top-down fashion***: first the base class constructor, then the derived class(es) constructor(s) 
  * This is generally true in all languages that support OOP
- * For unmanaged languages, such as C++, which also have ***destructors***, these are called in a ***bottom-up fashion***: first the derived class destructor, then the base class(es) destructor(s)
- * But in C# we only have to worry about constructors
+ * Languages such as C++ also have a strong focus on ***destructors***. These are called in a ***bottom-up fashion***: first the derived class destructor, then the base class(es) destructor(s)
+ * But in C#, most of the time we only have to worry about constructors
+ * This does not mean that C# doesn't have destructors: it does, and the syntax for them is the same as in C++
  
 #### Choosing between "is-a and "has-a" relationship
  * As we have defined and used both ***"is-a"*** and ***"has-a"*** relationship, we also need to understand when to use each of them
