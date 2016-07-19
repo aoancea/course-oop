@@ -358,7 +358,7 @@ public class Order
  * They might have user-defined constructors instead
  * We know how constructors are called outside of inheritance, but how are they called for a derived class?
  * Consider the next code sequence. What do you think gets printed for each ***new*** line?
- 
+
 ```c#
 public class Fruit
 {
@@ -406,7 +406,7 @@ class Program
  * The second one instantiates an Apple. In order to construct an apple, we must first have a Fruit (its base class) constructed, so this will print ***Fruit()*** and ***Apple()***
  * The same applies for the third line, even if we call a constructor with a parameter. The parameter-less constructor of the base class will always get called
  * The last line demonstrates this process with a hierarchy of 3 classes. First ***Fruit()*** is called, then ***Apple()*** and finally ***RedApple()***
- * In general, parameter-less constructors are automatically called in a ***top-down fashion***: first the best class constructor, then the derived class(es) constructor(s) 
+ * In general, parameter-less constructors are automatically called in a ***top-down fashion***: first the base class constructor, then the derived class(es) constructor(s) 
  * This is generally true in all languages that support OOP
  * For unmanaged languages, such as C++, which also have ***destructors***, these are called in a ***bottom-up fashion***: first the derived class destructor, then the base class(es) destructor(s)
  * But in C# we only have to worry about constructors
