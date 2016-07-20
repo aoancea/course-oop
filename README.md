@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/hdm7brg0r5agm4ax/branch/master?svg=true)](https://ci.appveyor.com/project/aoancea/course-oop/branch/master)
+
 # course-oop
 Simple course that helps me walk through important aspects of OOP
 
