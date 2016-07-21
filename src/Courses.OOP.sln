@@ -9,6 +9,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Courses.OOP.Encapsulation",
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Courses.OOP.Inheritance", "Inheritance\Courses.OOP.Inheritance.xproj", "{FB7E6CD5-BA99-46A0-94F4-1287C1BC4C95}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Courses.OOP.Polymorphism", "Polymorphism\Courses.OOP.Polymorphism.xproj", "{3E5795E9-3F05-4345-8BDE-7761DBAA2DA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FB7E6CD5-BA99-46A0-94F4-1287C1BC4C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB7E6CD5-BA99-46A0-94F4-1287C1BC4C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB7E6CD5-BA99-46A0-94F4-1287C1BC4C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5795E9-3F05-4345-8BDE-7761DBAA2DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5795E9-3F05-4345-8BDE-7761DBAA2DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5795E9-3F05-4345-8BDE-7761DBAA2DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5795E9-3F05-4345-8BDE-7761DBAA2DA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
