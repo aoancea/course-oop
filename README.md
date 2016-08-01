@@ -237,7 +237,7 @@ public class Product
  * One of the most important relationships among objects is specialization, which can be described as the ***“is-a”*** relationship
  * This means that if we have two classes, Class A and Class B, and class B derives from class A, we can say that B ***“is-a”*** A
 
-#### Understanding the "is-a" relationship
+#### Understanding the *"is-a"* relationship
  * The business is changing again and it wants to support multiple kinds of products
  * The first products they want to support are:
     * Apples
@@ -330,7 +330,7 @@ public class Order
    public List<Product> Products { get; set; }
 }
 ```
-#### Understanding the "has-a" relationship
+#### Understanding the *"has-a"* relationship
  * This means that now the Order class will contain the following attributes:
     * Customer
     * OrderDate
@@ -414,7 +414,7 @@ class Program
  * But in C#, most of the time we only have to worry about constructors
  * This does not mean that C# doesn't have destructors: it does, and the syntax for them is the same as in C++
  
-#### Choosing between "is-a and "has-a" relationship
+#### Choosing between *"is-a"* and *"has-a"* relationship
  * As we have defined and used both ***"is-a"*** and ***"has-a"*** relationship, we also need to understand when to use each of them
  * Some would say that the ***"is-a"*** relationship is better than the ***"has-a"*** relationship and others might say the opposite
  * My personal opinion is that neither is more important than the other, you just need to make sense of the situation you're in and decide which one is the best option to suite the need
