@@ -222,7 +222,7 @@ public class Customer
 public class Product
 {
    ...
-   public Address OwnerAddress { get; set; }
+   public Address OriginAddress { get; set; }
    ...
 }
 ```
