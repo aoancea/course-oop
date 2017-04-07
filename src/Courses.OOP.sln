@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Courses.OOP.Basics", "Basics\Courses.OOP.Basics.xproj", "{F4DCD94C-D7FF-4F7B-BB63-34AD1E6150EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Basics\Basics.csproj", "{F4DCD94C-D7FF-4F7B-BB63-34AD1E6150EC}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Courses.OOP.Encapsulation", "Encapsulation\Courses.OOP.Encapsulation.xproj", "{D963AB72-C139-417B-802D-5F7C4BBD065C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{D963AB72-C139-417B-802D-5F7C4BBD065C}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Courses.OOP.Inheritance", "Inheritance\Courses.OOP.Inheritance.xproj", "{FB7E6CD5-BA99-46A0-94F4-1287C1BC4C95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{FB7E6CD5-BA99-46A0-94F4-1287C1BC4C95}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Courses.OOP.Polymorphism", "Polymorphism\Courses.OOP.Polymorphism.xproj", "{3E5795E9-3F05-4345-8BDE-7761DBAA2DA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{3E5795E9-3F05-4345-8BDE-7761DBAA2DA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courses.OOP.UnitTesting", "UnitTesting\Courses.OOP.UnitTesting.csproj", "{3F4E134D-4A86-447D-AE99-B41EB4A55BAD}"
 EndProject
