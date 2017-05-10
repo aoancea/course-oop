@@ -88,11 +88,12 @@ Hope you'll enjoy it!
     * Drive a boat
     * Get age
 
->As an ***Admin*** I want the system to track the following about a ***User***:
- * Name
- * Email address
- * Shipping address
- * Date of birth
+>As an ***Admin*** I want the system to track the *name*, *email address*, *shipping address* and *date of birth* about a ***User***:
+  * The attributes the system will track for the ***Customer*** will be:
+    * Name
+    * Email address
+    * Shipping address
+    * Date of birth
 
  * This means that we do not need to add all the previous attributes to the customer class since the system is not going to need them
  * This goes for the actions a ***User*** can perform as well, we won’t be needing all of them, at least not yet
