@@ -243,13 +243,13 @@ public class Product
  * The first products they want to support are:
     * Apples
     * Oranges
-    * Mineral water
+    * Still water
     * Sparkling water
  * We can identify two classes from these 4 products:
     * **Fruit** – apples and oranges are fruits with one of the differences being that the thickness of the crust between these two is different
-    * **Water** – mineral and sparkling water is just water with the difference that the level of carbon-dioxide present in its composition is different
+    * **Water** – still and sparkling water is just water with the difference that the level of carbon-dioxide present in its composition is different
  * This means that we can treat both ***Apples*** and ***Oranges*** as ***Fruit*** which will end up becoming the ***Fruit*** class and as these are products, the ***Fruit*** class is going to inherit the ***Product*** class
- * This goes exactly the same for ***Mineral*** and ***Sparkling Water*** in defining the ***Water*** class that inherits from the ***Product*** class
+ * This goes exactly the same for ***Still*** and ***Sparkling Water*** in defining the ***Water*** class that inherits from the ***Product*** class
 
 ```c#
 public abstract class Product
@@ -271,7 +271,7 @@ public abstract class Water : Product
  * This is preventing any direct instantiation of the ***Product***, ***Fruit*** and ***Water*** classes
  * This is also a way to signal at design time that the system will never ever have the need of instantiating these kinds of object because they do not possess enough information to for a working object
  * The business can't use this simple abstract classes but it needs a set of concrete specialized classes for each of their products which we already discussed previously
- * Marking these classes as abstract do not prevent us of using any of the specialized(subclass or derived class) classes that we defined, ***Apple***, ***Orange***, ***SparklingWater*** and ***MineralWater***, in instantiating an object from them and refer to it as it were a ***Product***
+ * Marking these classes as abstract do not prevent us of using any of the specialized(subclass or derived class) classes that we defined, ***Apple***, ***Orange***, ***SparklingWater*** and ***StillWater***, in instantiating an object from them and refer to it as it were a ***Product***
 
 ```c#
 public class Apple : Fruit
@@ -289,7 +289,7 @@ public class SparklingWater : Water
    ...
 }
 
-public class MineralWater : Water
+public class StillWater : Water
 {
    ...
 }
@@ -316,7 +316,7 @@ public class Order
 {
    public List<Orange> OrangeCollection { get; set; }
    public List<Apple> AppleCollection { get; set; }
-   public List<MineralWater> MineralWaterCollection { get; set; }
+   public List<StillWater> StillWaterCollection { get; set; }
    public List<SparklingWater> SparklingWaterCollection { get; set; }
 }
 ```
